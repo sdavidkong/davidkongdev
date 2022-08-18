@@ -5,11 +5,11 @@ nav {
     display: flex;
     padding: 0.7rem 1.7rem;
     position: fixed;
-    left: 12.5%;
-    top: 3%;
+    left: 3%;
+    top: 2%;
     gap: 2rem;
     border-radius: 3rem;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(1.1px);
     z-index: 2;
 }
 

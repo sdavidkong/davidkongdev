@@ -64,7 +64,7 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
+  
 
 }
 
@@ -122,7 +122,7 @@ img {
 
 /*for medium devices like tablets*/
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:2048px) {
   .container {
     width: var(--container-width-md);
   }
@@ -133,9 +133,9 @@ img {
 }
  
 
-/*for small devices like phones*/
+/*for small devices like phones
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1080px) {
   .container {
     width: var(--container-width-sm);
   }
@@ -144,3 +144,4 @@ img {
     margin-top: 2rem;
   }
 }
+*/

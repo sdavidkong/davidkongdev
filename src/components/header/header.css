@@ -1,13 +1,15 @@
 header {
-    height: 100vh;
+    height: 35rem;
     overflow: hidden;
-    margin-top: 6rem;
+    margin-top: 4rem;
+    
 }
 
 .header__container {
     text-align: center;
     height: 100%;
     position: relative;
+    
 }
 
 .cta {
@@ -24,8 +26,8 @@ header {
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: -3rem;
-    bottom: 3rem;
+    left: 0.5rem;
+    bottom: 1rem;
     font-size: 2rem;
 }
 
@@ -39,30 +41,26 @@ header {
 .me {
     
     width: 18rem;
-    height: 18rem;
     position: absolute;
     left: calc(50% - 9rem);
     margin-top: 4rem;
+    
     
     
 }
 
 .meImg {
     border-radius: 7rem 7rem 3rem 3rem ;
+    
 }
 
-.scroll__down {
-    position: absolute;
-    right: -7.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-size: 1.5rem;
-}
+
 
 .opensea {
     height: 2.3rem;
     flood-color:"#00ff00";
     filter: invert(40%) sepia(110%) saturate(700%) hue-rotate(180deg) brightness(93%) contrast(110%);;
+    
     
     
 }
@@ -74,22 +72,24 @@ header {
 
 /*for medium devices like tablets*/
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1080px) {
     header {
-        height: 100vh;
+        height: 35rem;
+        margin-top: 6rem;
+        
     }
-  }
+
+}
    
   
   /*for small devices like phones*/
   
   @media screen and (max-width:600px) {
     header {
-        height: 100vh;
+        height: 35rem;
     }
+    
 
-    .header__socials, .scroll__down{
-        display: none;
-    }
+   
   }
   
