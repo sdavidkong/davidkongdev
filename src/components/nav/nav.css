@@ -1,14 +1,32 @@
 nav {
-    background: rgba(0, 0, 0 ,0.3);
+    background: var(--color-light);
+    background-color: rgb(246, 239, 239, 0.12);
     width: max-content;
     display: flex;
     padding: 0.7rem 1.7rem;
-    bottom: 2rem;
-    left: 50%;
-    margin-top: 1.3rem;
-    margin-left: 12rem;
+    position: fixed;
+    left: 12.5%;
+    top: 3%;
     gap: 2rem;
     border-radius: 3rem;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(3px);
     z-index: 2;
+}
+
+nav a {
+    background: transparent;
+    padding: 0.6rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0 ,0.9);
+} 
+
+nav a.active {
+    background: var(--color-bg);
+    color: var(--color-white);
 }
