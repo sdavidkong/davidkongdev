@@ -1,6 +1,5 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
     overflow: hidden;
 }
 
@@ -58,3 +57,38 @@ header {
     transform: rotate(90deg);
     font-size: 1.5rem;
 }
+
+.opensea {
+    height: 2.3rem;
+    flood-color:"#00ff00";
+    filter: invert(57%) sepia(106%) saturate(730%) hue-rotate(178deg) brightness(100%) contrast(180%);;
+    
+    
+}
+.opensea:hover {
+    filter: invert(0%) sepia(0%) saturate(1%) hue-rotate(289deg) brightness(106%) contrast(101%);
+    transition: all 600ms linear;
+}
+
+
+/*for medium devices like tablets*/
+
+@media screen and (max-width:1024px) {
+    header {
+        height: 100vh;
+    }
+  }
+   
+  
+  /*for small devices like phones*/
+  
+  @media screen and (max-width:600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header__socials, .scroll__down{
+        display: none;
+    }
+  }
+  

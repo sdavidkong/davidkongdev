@@ -1,0 +1,14 @@
+nav {
+    background: rgba(0, 0, 0 ,0.3);
+    width: max-content;
+    display: flex;
+    padding: 0.7rem 1.7rem;
+    bottom: 2rem;
+    left: 50%;
+    margin-top: 1.3rem;
+    margin-left: 12rem;
+    gap: 2rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    z-index: 2;
+}
