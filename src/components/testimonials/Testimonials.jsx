@@ -3,7 +3,10 @@ import './testimonials.css'
 
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
+    <section id='testimonials'>
+      <h5>Want To Know More? Ask My Friends</h5>
+      <h2>Personal and Professional References</h2>
+    </section>
   )
 }
 

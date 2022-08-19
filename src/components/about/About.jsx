@@ -35,10 +35,10 @@ const About = () => {
           </article>
         </div>
         <p className='aboutP'>
-          In 2018, I started mining Ethereum in my garage. Since then, crypto has led me on an epic journey! Formerely an Operations Manager in IT services, I decided to follow my passion down the Web3 rabbit hole as far I as can. 
+          In 2018, I started mining Ethereum in my garage. Since then, crypto has led me on an epic journey! Formerely an operations manager in IT services, I decided to follow my passion down the Web3 rabbit hole. 
           <br></br><br></br>
           Now, I build full stack React/React Native apps that integrate with Solidity smart contracts. I'm really excited about Ethereum, Chainlink, and The Graph!<br></br><br></br>
-          Besides coding, I also love traveling, trading markets, NFTs, spending time with my loved ones, fashion, and watches! I spend most of my time between Miami, Los Angeles, and San Francisco. 
+          Besides coding, I also love traveling, trading markets, NFTs, being with the people I love, fashion, and watches! I spend most of my time between Miami, Los Angeles, and San Francisco. 
           </p>
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>
       </div>
