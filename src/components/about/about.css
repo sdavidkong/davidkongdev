@@ -1,0 +1,142 @@
+.aboutHeading {
+    padding-top: 6rem;
+}
+
+.about__container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.about__me {
+    width: 90%;
+    height: 70%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-light),transparent);
+    display: grid;
+    place-items: center;
+    
+}
+
+.about__me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+    
+}
+.about__me-image:hover {
+    transform: rotate(0deg);
+    transition: var(--transition);
+}
+
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
+
+.about__card {
+    background: var(--color-bg-variant);
+    border: 5px solid transparent;
+    border-color: var(--color-primary);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: var(--transition);
+    color: var(--color-light);
+    
+    
+}
+.about__card:hover {
+    background: var(--color-light);
+    background-color: rgba(252, 249, 249, 0.3);
+    border-color: var(--color-primary-variant);
+    transition: var(--transition);
+    color: var(--color-primary);
+    
+    cursor: default;
+}
+.about__icon {
+    color: var(--color-primary);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.about__card h5 {
+    font-size: 1.2rem;
+    color: var(--color-white);
+    
+}
+
+.aboutP{
+    margin: 2rem 0 2.6rem;
+    color: var(--color-white);
+    padding-top: 2rem;
+
+}
+
+
+
+/*for medium devices like tablets*/
+
+@media screen and (max-width:1080px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about__me {
+        width: 50%;
+        margin: 2rem auto 2rem;
+        
+    }
+    .about__cards {
+        margin-top: 1rem;
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 0.8rem;
+      
+    }
+    .about__card h5 {
+        font-size: 0.8rem;
+        color: var(--color-white);
+        
+    }
+
+    .about__content p {
+        color: var(--color-white);
+        margin: 1rem 0;
+        line-height: 2rem;
+    }
+    .about__me-image {
+        margin: 3rem;
+    }
+  }
+   
+  
+  /*for small devices like phones*/
+  
+  @media screen and (max-width:600px) {
+    .about__me {
+        width: 80%;
+        margin: 2rem auto 2rem;
+        
+    }
+
+    .about__cards {
+    
+        grid-template-columns: 1fr;
+    }
+    .about__card {
+        padding: 1rem;
+    }
+
+    .about__icon {
+        color: var(--color-primary);
+        font-size: 1.8rem;
+        margin-bottom: 0.1rem;
+    }
+
+  }
