@@ -34,9 +34,12 @@ const About = () => {
             <small>A self taught crypto native who takes initiative.</small>
           </article>
         </div>
-        <p>
-          I started mining Ethereum in my garage in 2018. Since then, crypto has led me on an unforgettable journey! Formerely the Operations Manager at TeamLogic IT, I decided to adjust my path 
-        </p>
+        <p className='aboutP'>
+          In 2018, I started mining Ethereum in my garage. Since then, crypto has led me on an epic journey! Formerely an Operations Manager in IT services, I decided to follow my passion down the Web3 rabbit hole as far I as can. 
+          <br></br><br></br>
+          Now, I build full stack React/React Native apps that integrate with Solidity smart contracts. I'm really excited about Ethereum, Chainlink, and The Graph!<br></br><br></br>
+          Besides coding, I also love traveling, trading markets, NFTs, spending time with my loved ones, fashion, and watches! I spend most of my time between Miami, Los Angeles, and San Francisco. 
+          </p>
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>
       </div>
       </div>

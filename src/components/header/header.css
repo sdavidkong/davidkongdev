@@ -1,5 +1,5 @@
 header {
-    height: 35rem;
+    height: 44rem;
     overflow: hidden;
     margin-top: 4rem;
     
@@ -22,28 +22,36 @@ header {
 
 .header__socials {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 0.8rem;
+    gap: 1.2rem;
     position: absolute;
-    left: 0.5rem;
-    bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%);
     font-size: 2rem;
+    margin-top: 3rem;
 }
 
 .header__socials::after{
     content: '';
-    width: 1px;
-    height: 2rem;
+    width: 2rem;
+    height: 1px;
     background: var(--color-primary);
 }
-
+.header__socials::before{
+    content: '';
+    width: 2rem;
+    height: 1px;
+    background: var(--color-primary);
+}
 .me {
-    
+    display: block;
+    margin: 0 auto;
     width: 18rem;
-    position: absolute;
-    left: calc(50% - 9rem);
+    justify-content: center;
+    align-items: center;
     margin-top: 4rem;
+    
     
     
     
@@ -58,7 +66,7 @@ header {
 
 .opensea {
     height: 2.3rem;
-    flood-color:"#00ff00";
+    width: 2.3rem;
     filter: invert(40%) sepia(110%) saturate(700%) hue-rotate(180deg) brightness(93%) contrast(110%);;
     
     
@@ -74,7 +82,7 @@ header {
 
 @media screen and (max-width:1080px) {
     header {
-        height: 35rem;
+        
         margin-top: 6rem;
         
     }
@@ -86,7 +94,7 @@ header {
   
   @media screen and (max-width:600px) {
     header {
-        height: 35rem;
+        
     }
     
 

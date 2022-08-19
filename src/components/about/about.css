@@ -1,5 +1,5 @@
 .aboutHeading {
-    padding-top: 5rem;
+    padding-top: 6rem;
 }
 
 .about__container {
@@ -10,11 +10,13 @@
 
 .about__me {
     width: 90%;
+    height: 70%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-light),transparent);
     display: grid;
     place-items: center;
+    
 }
 
 .about__me-image {
@@ -68,11 +70,13 @@
     
 }
 
-.about__content p{
+.aboutP{
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: var(--color-white);
+    padding-top: 2rem;
 
 }
+
 
 
 /*for medium devices like tablets*/
@@ -84,13 +88,13 @@
     }
 
     .about__me {
-        width: 50%
-        margin 2rem auto 4rem;
+        width: 50%;
+        margin: 2rem auto 2rem;
+        
     }
     .about__cards {
-        margin-top: 3.5rem;
+        margin-top: 1rem;
         width: 100%;
-        height: fit-content;
         grid-template-columns: repeat(3, 1fr);
         font-size: 0.8rem;
       
@@ -102,7 +106,9 @@
     }
 
     .about__content p {
-        margin: 1rem 0 1.5rem;
+        color: var(--color-white);
+        margin: 1rem 0;
+        line-height: 2rem;
     }
     .about__me-image {
         margin: 3rem;
@@ -112,10 +118,25 @@
   
   /*for small devices like phones*/
   
-  @media screen and (max-width:1080px) {
-   
-
-    .scroll__down{
-        display: none;
+  @media screen and (max-width:600px) {
+    .about__me {
+        width: 80%;
+        margin: 2rem auto 2rem;
+        
     }
+
+    .about__cards {
+    
+        grid-template-columns: 1fr;
+    }
+    .about__card {
+        padding: 1rem;
+    }
+
+    .about__icon {
+        color: var(--color-primary);
+        font-size: 1.8rem;
+        margin-bottom: 0.1rem;
+    }
+
   }
