@@ -4,7 +4,7 @@ nav {
     width: max-content;
     display: flex;
     padding: 0.7rem 1.7rem;
-    position: fixed;
+    position: absolute;
     right: 2%;
     top: 1.75%;
     gap: 2rem;
