@@ -25,17 +25,20 @@
   --container-width-md: 86%;
   --container-width-sm: 90%;
 
+ 
 
-
+  
 }
 
 html {
   scroll-behavior: smooth;
+  
+  
+  
+    
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
+
 
 
 body {
@@ -46,11 +49,13 @@ body {
   background-image: url(../src/assests/gplay.png);
   background-size: auto;
   
+  
 }
 
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
+  
 
 }
 

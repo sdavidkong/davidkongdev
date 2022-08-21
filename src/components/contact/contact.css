@@ -1,0 +1,38 @@
+.contact__header {
+    padding-top: 5rem;
+}
+
+.contact__container {
+    width: 58%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1.54rem;
+    border-radius: 0.5rem;
+    background: rgba(0,0, 0, 0.3);
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);
+    font-family:'Roboto Mono', monospace;
+
+}
+
+input::placeholder, textarea::placeholder {
+    font-size: large;
+    color: var(--color-primary);
+    
+}
+
+textarea {
+    font-size: larger;
+    font-family:'Roboto Mono', monospace;
+}
+

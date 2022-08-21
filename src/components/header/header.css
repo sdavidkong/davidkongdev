@@ -1,6 +1,5 @@
 header {
     height: 44rem;
-    overflow: hidden;
     margin-top: 4rem;
     
 }
@@ -65,9 +64,10 @@ header {
 
 
 .opensea {
-    height: 2.3rem;
-    width: 2.3rem;
-    filter: invert(40%) sepia(110%) saturate(700%) hue-rotate(180deg) brightness(93%) contrast(110%);;
+    height: 2.2rem;
+    width: 2.2rem;
+    filter: invert(40%) sepia(110%) saturate(700%) hue-rotate(180deg) brightness(93%) contrast(110%);
+    margin-bottom: 7px;
     
     
     
@@ -86,18 +86,15 @@ header {
         margin-top: 6rem;
         
     }
-
 }
    
-  
+
   /*for small devices like phones*/
   
   @media screen and (max-width:600px) {
     header {
         
     }
-    
 
-   
   }
   
