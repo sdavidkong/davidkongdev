@@ -1,5 +1,6 @@
 .contact__header {
     padding-top: 5rem;
+    
 }
 
 .contact__container {
@@ -36,3 +37,24 @@ textarea {
     font-family:'Roboto Mono', monospace;
 }
 
+
+/*for medium devices like tablets*/
+
+@media screen and (max-width:1080px) {
+
+
+}
+   
+  
+  /*for small devices like phones*/
+  
+  @media screen and (max-width:650px) {
+    .contact__container {
+        width: var(--container-width-sm);
+    }
+    .contact__header {
+        padding-top: 6rem;
+        padding-bottom: 9rem;
+    }
+
+  }

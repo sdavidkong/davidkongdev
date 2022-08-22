@@ -6,7 +6,7 @@
 }
 
 .testimonials__container {
-    width: 40%;
+    width: 50%;
     margin-bottom: 4rem;
 
 }
@@ -38,6 +38,16 @@
     display: block;
     width: 80%;
     margin: 0.6rem auto 0;
+}
+.ref__name {
+    color: var(--color-primary);
+}
+a {
+    font-size: 1.2rem;
+}
+
+small {
+    padding-bottom: 1.2rem;
 }
 
 /*for medium devices like tablets*/
