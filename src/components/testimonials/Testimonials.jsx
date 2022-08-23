@@ -67,7 +67,7 @@ const Testimonials = () => {
               </div>
               <h4 className='ref__name'>{refName}</h4>
               <h5 className='ref__title'>{refTitle}</h5>
-              <a href={refSocial} target='_blank'><BsLinkedin/></a>
+              <a className='ref__social' href={refSocial} target='_blank'><BsLinkedin/></a>
               <small className='ref__review'>{review}</small>
 
         </SwiperSlide>
