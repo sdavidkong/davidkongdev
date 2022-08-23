@@ -6,7 +6,7 @@
 }
 
 .testimonials__container {
-    width: 50%;
+    width: 60%;
     margin-bottom: 4rem;
 
 }
@@ -16,12 +16,12 @@
 }
 
 .ref__avatar {
-    width: 4rem;
+    width: 6rem;
     aspect-ratio: 1/1;
     overflow: hidden;
     border-radius: 50%;
     margin: 0rem auto 1rem;
-    border: 0.4rem solid var(--color-primary-variant);
+    border: 0.4rem solid var(--color-primary);
 }
 
 .testimonial {
@@ -30,6 +30,7 @@
     padding: 2rem;
     user-select: none;
     border-radius: 2rem;
+    border: 5px solid var(--color-primary-variant);
 }
 
 .ref__review {
@@ -41,6 +42,7 @@
 }
 .ref__name {
     color: var(--color-primary);
+    font-size: 1.2rem;
 }
 a {
     font-size: 1.2rem;
@@ -50,11 +52,15 @@ small {
     padding-bottom: 1.2rem;
 }
 
+.ref__title {
+    font-size: 1.1rem;
+}
+
 /*for medium devices like tablets*/
 
 @media screen and (max-width:1080px) {
    .testimonials__container {
-    width: 60%;
+    width: 80%;
    }
 }
    

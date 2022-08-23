@@ -25,7 +25,7 @@ const data = [
     refName: 'Gerard Degas',
     refTitle:'Senior Software Engineer @ Block (Square)',
     refSocial:'https://www.linkedin.com/in/gerard-degas-305264ab/',
-    review: `"David goes after what he wants and doesn't stop until he's achieved victory. He's a great leader and firned and he's inspired me for as long as I've known him. Plain and simple - David knows how to make the impossible, possible."`
+    review: `"David goes after what he wants and doesn't stop until he's achieved victory. He's a great leader and friend and he's inspired me for as long as I've known him. Plain and simple - David knows how to make the impossible, possible."`
   },
   {
     avatar: zach,
