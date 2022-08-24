@@ -11,6 +11,7 @@ import juan from '../../assests/juan.jpg'
 import {BsLinkedin} from 'react-icons/bs'
 import gerard from '../../assests/gerard.jfif'
 import zach from '../../assests/zach.jfif'
+import kristi from '../../assests/kristi.jpeg'
 
 const data = [
   {
@@ -26,6 +27,13 @@ const data = [
     refTitle:'Senior Software Engineer @ Block (Square)',
     refSocial:'https://www.linkedin.com/in/gerard-degas-305264ab/',
     review: `"David goes after what he wants and doesn't stop until he's achieved victory. He's a great leader and friend and he's inspired me for as long as I've known him. Plain and simple - David knows how to make the impossible, possible."`
+  },
+  {
+    avatar: kristi,
+    refName: 'Kristi Zentner',
+    refTitle:'Software Engineer @ Array',
+    refSocial:'https://www.linkedin.com/in/kristin-zentner-651bb1112/',
+    review: '"David is an excellent person to work with, and has demonstrated the ability to grasp complex ideas with ease. When collaborating on projects, he exhibits a keen eye for details and displays an aptitude for creative problem-solving."'
   },
   {
     avatar: zach,
