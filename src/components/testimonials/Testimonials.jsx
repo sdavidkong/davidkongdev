@@ -12,6 +12,7 @@ import {BsLinkedin} from 'react-icons/bs'
 import gerard from '../../assests/gerard.jfif'
 import zach from '../../assests/zach.jfif'
 import kristi from '../../assests/kristi.jpeg'
+import ken from '../../assests/ken.jpeg'
 
 const data = [
   {
@@ -40,14 +41,14 @@ const data = [
     refName: 'Zach Queen',
     refTitle:'Software Engineer @ Google',
     refSocial:'https://www.linkedin.com/in/zach-queen/',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error hic adipisci explicabo laborum, illo iure doloremque dolor accusantium a assumenda quibusdam voluptatem voluptate facilis similique vitae sequi harum ad? Numquam.'
+    review: ''
   },
   {
-    avatar: juan,
-    refName: 'Albert Einstein',
-    refTitle:'',
-    refSocial:'',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error hic adipisci explicabo laborum, illo iure doloremque dolor accusantium a assumenda quibusdam voluptatem voluptate facilis similique vitae sequi harum ad? Numquam.'
+    avatar: ken,
+    refName: 'Ken Chambers',
+    refTitle:'Senior Software Engineer @ Red Ventures',
+    refSocial:'https://www.linkedin.com/in/codeaholic/',
+    review: `"In the few years I've known David I've gotten to watch him grow and expand his knowledge through strong self teaching abilities. His effectiveness is demonstrated by his deep fundamental understanding of complicated concepts and his ability to execute on them. "`
   },
 ]
 
@@ -71,7 +72,7 @@ const Testimonials = () => {
             return (
               <SwiperSlide className='testimonial'>
                <div className='ref__avatar'>
-                 <img src={avatar} alt='a good friend of mine'/>
+                 <img className='ref__img' src={avatar} alt='a good friend of mine'/>
               </div>
               <h4 className='ref__name'>{refName}</h4>
               <h5 className='ref__title'>{refTitle}</h5>
