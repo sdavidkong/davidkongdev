@@ -48,7 +48,7 @@ const data = [
     refName: 'Ken Chambers',
     refTitle:'Senior Software Engineer @ Red Ventures',
     refSocial:'https://www.linkedin.com/in/codeaholic/',
-    review: `"In the few years I've known David I've gotten to watch him grow and expand his knowledge through strong self teaching abilities. His effectiveness is demonstrated by his deep fundamental understanding of complicated concepts and his ability to execute on them. "`
+    review: `"In the few years I've known David I've gotten to watch him grow and expand his knowledge through strong self teaching abilities. His effectiveness is demonstrated by his deep fundamental understanding of complicated concepts and his ability to execute on them."`
   },
 ]
 
