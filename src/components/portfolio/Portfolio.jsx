@@ -15,7 +15,10 @@ const Portfolio = () => {
             <img src={LOTTO} alt="a thumbnail of the project" />
           </div>
           <h3>LottoTime.app</h3>
-          <h4>A decentralized lotto game on Ethereum's Goerli Testnet!</h4>
+          <h4>
+            A decentralized lotto game on Ethereum's Goerli Testnet. Built with
+            NextJS, CSS, Moralis, web3uikit, Solidity, Hardhat.{" "}
+          </h4>
           <br></br>
           <div className="portfolio__item-cta">
             <a
