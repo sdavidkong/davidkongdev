@@ -26,7 +26,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https:/lottotime.app"
+              href="https://lottotime.app"
               className="btn btn-primary"
               target="_blank"
             >
