@@ -17,7 +17,7 @@ const Portfolio = () => {
           <h3>LottoTime.app</h3>
           <h4>
             A decentralized lotto game on Ethereum's Goerli Testnet. Built with
-            NextJS, CSS, Moralis, web3uikit, Solidity, Hardhat.{" "}
+            NextJS, CSS, Moralis, web3uikit, Solidity, Hardhats.{" "}
           </h4>
           <br></br>
           <div className="portfolio__item-cta">
