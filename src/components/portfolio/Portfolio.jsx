@@ -2,6 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assests/wheat.webp";
 import LOTTO from "../../assests/lotto.JPG";
+import OE from "../../assests/olympusetheria.JPG";
 
 const Portfolio = () => {
   return (
@@ -16,8 +17,8 @@ const Portfolio = () => {
           </div>
           <h3>LottoTime.app</h3>
           <h4>
-            A decentralized lotto game on Ethereum's Goerli Testnet. Built with
-            NextJS, CSS, Moralis, web3uikit, Solidity, Hardhat.{" "}
+            A decentralized lotto game on Eth Goerli Testnet. Built with NextJS,
+            CSS, Moralis, web3uikit, Solidity, Hardhat.{" "}
           </h4>
           <br></br>
           <div className="portfolio__item-cta">
@@ -40,14 +41,27 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="a thumbnail of the project" />
+            <img src={OE} alt="a thumbnail of the project" />
           </div>
-          <h3>Project Coming Soon</h3>
+          <h3>OlympusEtheria.xyz</h3>
+          <h4>
+            An original NFT project featuring AI generated art on Eth Mainnet.
+            Solidity smart contract + NextJS minting site.
+          </h4>
+          <br></br>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/" className="btn" target="_blank">
+            <a
+              href="https://github.com/sdavidkong/front-end-olympus-etheria"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
-            <a href="https://" className="btn btn-primary" target="_blank">
+            <a
+              href="https://olympusetheria.xyz"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live Demo
             </a>
           </div>
