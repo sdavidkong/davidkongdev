@@ -73,6 +73,10 @@ const Portfolio = () => {
             <img src={dsnft} alt="a thumbnail of the project" />
           </div>
           <h3>DirectSwap NFT</h3>
+          <h4>
+            An NFT marketplace on Goerli testnet where anyone can buy and sell
+            NFTs. Built with NextJS & Solidity, indexed by The Graph.
+          </h4>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/sdavidkong/directSwapNFTMarketplace"
