@@ -3,6 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assests/wheat.webp";
 import LOTTO from "../../assests/lotto.JPG";
 import OE from "../../assests/olympusetheria.JPG";
+import dsnft from "../../assests/directswapnft.JPG";
 
 const Portfolio = () => {
   return (
@@ -69,14 +70,22 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="a thumbnail of the project" />
+            <img src={dsnft} alt="a thumbnail of the project" />
           </div>
-          <h3>Project Coming Soon</h3>
+          <h3>DirectSwap NFT</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/" className="btn" target="_blank">
+            <a
+              href="https://github.com/sdavidkong/directSwapNFTMarketplace"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
-            <a href="https://" className="btn btn-primary" target="_blank">
+            <a
+              href="https://directswapnft.xyz/"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live Demo
             </a>
           </div>
