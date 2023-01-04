@@ -4,6 +4,7 @@ import IMG1 from "../../assests/wheat.webp";
 import LOTTO from "../../assests/lotto.JPG";
 import OE from "../../assests/olympusetheria.JPG";
 import dsnft from "../../assests/directswapnft.JPG";
+import blog from "../../assests/blog.JPG";
 
 const Portfolio = () => {
   return (
@@ -98,14 +99,24 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="a thumbnail of the project" />
+            <img src={blog} alt="a thumbnail of the project" />
           </div>
-          <h3>Project Coming Soon</h3>
+          <h3>davidkong.blog</h3>
+          <h4>A personal blog about crypto and web3. Built with Gatsby.</h4>
+          <br></br>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/" className="btn" target="_blank">
+            <a
+              href="https://github.com/sdavidkong/davidkongbloggatsby"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
-            <a href="https://" className="btn btn-primary" target="_blank">
+            <a
+              href="https://davidkong.blog/"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live Demo
             </a>
           </div>
