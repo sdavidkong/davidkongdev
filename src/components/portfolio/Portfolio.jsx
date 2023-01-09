@@ -102,7 +102,10 @@ const Portfolio = () => {
             <img src={blog} alt="a thumbnail of the project" />
           </div>
           <h3>davidkong.blog</h3>
-          <h4>A personal blog about crypto and web3. Built with Gatsby.</h4>
+          <h4>
+            A personal blog about crypto and web3. Built with Gatsby. Content is
+            pulled from Contentful using GraphQL.
+          </h4>
           <br></br>
           <div className="portfolio__item-cta">
             <a
